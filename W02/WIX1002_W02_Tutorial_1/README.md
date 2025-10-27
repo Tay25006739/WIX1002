@@ -55,14 +55,14 @@ END
 #### 📊 IPO Model
 | Input | Process | Output |
 |----------|----------|----------|
-| mark | Check if number >= 40 | Message "Pass" or "Fail" 
+| mark | - Check if number >= 40 <br> - Check if mark is integer | Message "Pass" or "Failed" 
 
 
 #### 💻 Pseudocode
 ```text
 START 
     Read mark
-    If mark >= 40
+    If mark >= 40 and mark is intetger
         Display "Pass"
     Else
         Display "Failed"
@@ -153,7 +153,7 @@ START
 
     min = numbers[0]
 
-    For each number In numbers Do
+    For each number In numbers 
         If number < min 
             min = number
 
@@ -187,6 +187,9 @@ START
         numbers[i] = random_number
     End for
 
+    num_even = 0
+    num_odd = 0
+    
     For each number in numbers 
         If number <= 100 and number >= 10 and number % 2 == 0
             num_even = num_even + 1
