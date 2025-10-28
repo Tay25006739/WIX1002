@@ -1,8 +1,16 @@
-package com.mycompany.l2q1;
+/*
+ * Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
+ * Click nbfs://nbhost/SystemFileSystem/Templates/Classes/Class.java to edit this template
+ */
+package com.mycompany.l2q5;
 
 import java.util.Random;
 
-public class RandomNumberSumRange {
+/**
+ *
+ * @author Tay
+ */
+public class RandomNumSum {
     public static void main(String[]args) { 
         Random rd = new Random();
         int rdnum = rd.nextInt(10000);
@@ -18,5 +26,4 @@ public class RandomNumberSumRange {
         System.out.println("Total: "+ total);
 
     }
-
 }

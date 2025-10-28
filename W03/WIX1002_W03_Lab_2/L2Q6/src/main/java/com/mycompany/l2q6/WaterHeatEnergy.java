@@ -1,9 +1,17 @@
-package com.mycompany.l2q1;
+/*
+ * Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
+ * Click nbfs://nbhost/SystemFileSystem/Templates/Classes/Class.java to edit this template
+ */
+package com.mycompany.l2q6;
 
 import java.util.Scanner;
 
-public class EnergyHeatWater {
-    public static void main(String[]args) { 
+/**
+ *
+ * @author Tay
+ */
+public class WaterHeatEnergy {
+     public static void main(String[]args) { 
         Scanner input = new Scanner(System.in);
         System.out.print("Enter the amount of water in gram : ");
         double m = input.nextInt();

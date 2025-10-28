@@ -1,11 +1,18 @@
-package com.mycompany.l2q1;
+/*
+ * Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
+ * Click nbfs://nbhost/SystemFileSystem/Templates/Classes/Class.java to edit this template
+ */
+package com.mycompany.l2q3;
 
 import java.util.Random;
 
-public class ManipulateRandom {
-    public static void main(String[]args) {
-        
-        // Method 1 : Using Math Random
+/**
+ *
+ * @author Tay
+ */
+public class RandomManipulation {
+    public static void main(String[] args) {
+         // Method 1 : Using Math Random
 
         System.out.println("==== Method 1 : Using Math random =====");
         int randomNum1 = (int) (Math.random() * 50) + 10;
@@ -41,5 +48,4 @@ public class ManipulateRandom {
         System.out.printf("Sum: %d \n" , sum);
         System.out.printf("Average: %.2f \n", average);
     }
-
 }
