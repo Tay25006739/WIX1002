@@ -21,10 +21,8 @@ public class L1Q3 {
         for (int j = 0; j < size; j ++) {
             if (i == 0 || i == size-1) {
                 System.out.print("*");
-                //System.out.print("1");
             } else if (j == 0 || j == size-1) {
                 System.out.print("*");
-                //System.out.print("2");
             } else {
                 System.out.print(" ");
             }
@@ -99,8 +97,10 @@ public class L1Q3 {
         
 
         // TODO code application logic here
-        // Scanner input = new Scanner(System.in);
         
+
+        // Workable size domain : 9,15,21,27,33,....
+
         int size = 11;
         for (int i = 0 ; i< size ; i++) {
             L1Q3.Rectangle(i,size);
@@ -112,11 +112,5 @@ public class L1Q3 {
             L1Q3.Diamond(i,size);
             System.out.println();
         }
-        //System.out.println("");
     }
-        
-
- 
-    
-    
 }

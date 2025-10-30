@@ -13,6 +13,9 @@ package com.mycompany.l1q4;
 public class L1Q4 {
 
     public static void main(String[] args) {
+        
+        // Setting up ANSI colors
+
         String RESET = "\u001B[0m";
         String red = "\u001B[41m \u001B[0m"; // red background, reset after
         String green = "\u001B[42m \u001B[0m";
@@ -21,6 +24,8 @@ public class L1Q4 {
         String purple = "\u001B[45m \u001B[0m";
         String cyan = "\u001B[46m \u001B[0m";
 
+
+        // Display horizontal bar chart
         System.out.println("   Month       |        Amount");
         System.out.println("January 2016   |" + red.repeat(25) + RESET + "(2500)");
         System.out.println("February 2016  |" + yellow.repeat(16)+ RESET + "(1600)") ;
