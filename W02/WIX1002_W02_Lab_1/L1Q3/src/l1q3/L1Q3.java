@@ -101,7 +101,7 @@ public class L1Q3 {
         // TODO code application logic here
         // Scanner input = new Scanner(System.in);
         
-        int size = 9;
+        int size = 11;
         for (int i = 0 ; i< size ; i++) {
             L1Q3.Rectangle(i,size);
             System.out.print("          ");
